@@ -1,0 +1,26 @@
+{
+  "name": "sbagh-build-an-authorization-server-lp-main",
+  "version": "1.0.0",
+  "description": "Build an Authorization Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon index.js\n"
+  },
+  "repository": {
+    "type": "git",
+    "url": "sbagh-build-an-authorization-server-lp-main"
+  },
+  "author": "Sami",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jose": "^4.11.1",
+    "lru-cache": "^7.14.1",
+    "oidc-provider": "^7.14.3"
+  }
+}
